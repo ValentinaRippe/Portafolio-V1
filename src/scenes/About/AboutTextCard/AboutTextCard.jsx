@@ -5,39 +5,38 @@ const AboutTextCard = () => {
   return (
     <div className={s.card}>
       <p style={{ textAlign: 'justify' }}>
-        Hi Everyone, I am{' '}
-        <span className={s.purple}>Snaichuk Volodymyr </span>
-        from <span className={s.purple}> Ternopil, Ukraine.</span>
+        Hola a todos, Soy{' '}
+        <span className={s.purple}>Valentina Rippe </span>
+        de <span className={s.purple}> Bogotá, Colombia.</span>
         <br />
-        Skilled MERN Stack and React Native Developer.
-        <br /> Bachelor in Computer Science from
+        Desarrolladora en MERN Stack y React Native.
         <br />
-        West Ukrainian National University, Ternopil.
+        Graduada del Bootcamp Programate de Educamas.
         <br />
         <br />
-        Apart from coding, some other activities that I love to do!
+        ¡Aparte de la codificación, algunas otras actividades que me encanta hacer!
       </p>
 
       <ul>
         <li className={s.aboutActivity}>
-          <ImPointRight /> Playing Games
+          <ImPointRight />  Video juegos
         </li>
         <li className={s.aboutActivity}>
-          <ImPointRight /> Reading
+          <ImPointRight /> Dibujar
         </li>
         <li className={s.aboutActivity}>
-          <ImPointRight /> Travelling
+          <ImPointRight />  Dibujar
         </li>
       </ul>
 
       <p
         style={{
-          color: 'rgb(155 126 172)',
+          color: '#2d3a1c',
           textAlign: 'center',
           marginTop: '1rem',
         }}
       >
-        "Strive to build things that make a difference!"{' '}
+        "Esfuérzate por construir cosas que marquen la diferencia!"{' '}
       </p>
     </div>
   );
