@@ -10,7 +10,7 @@
 
 .image {
   display: block;
-  max-width: 20rem;
+  max-width: 36rem;
 }
 
 .cardBody {
@@ -20,7 +20,7 @@
 }
 
 .cardFooter {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   display: flex;
   flex-direction: row;
   a:first-child {
@@ -43,7 +43,7 @@
 
 .technologies > span {
   display: inline-block;
-  background-color: RGB(129 72 144 / 56%);
+  background-color: RGB(0 0 0 / 56%);
   border-style: solid;
   border-color: transparent;
   border-width: 1px;

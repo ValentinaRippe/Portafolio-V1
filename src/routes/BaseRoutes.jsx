@@ -7,7 +7,6 @@ const Home = lazy(() => import('../scenes/Home/Home'));
 const About = lazy(() => import('../scenes/About/About'));
 const Projects = lazy(() => import('../scenes/Projects/Projects'));
 const Resume = lazy(() => import('../scenes/Resume/Resume'));
-const Contact = lazy(() => import('../scenes/Contact/Contact'));
 
 export const routes = {
   HOME: '/',
@@ -15,7 +14,6 @@ export const routes = {
   PROJECTS: '/projects',
   PROJECT: '/project/:id',
   RESUME: '/resume',
-  CONTACT:'/contact'
 };
 
 const BaseRoutes = () => {
@@ -30,7 +28,6 @@ const BaseRoutes = () => {
         <Route path={routes.PROJECTS} component={Projects} />
         <Route path={routes.PROJECT} component={ModalProjectCard} />
         <Route path={routes.RESUME} component={Resume} />
-        <Route path={routes.CONTACT} component={Contact} />
       </Switch>
 
       {background && (
