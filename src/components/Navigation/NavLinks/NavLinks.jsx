@@ -33,7 +33,7 @@ const NavLinks = () => {
       </li>
 
       <li>
-        <NavLink to={routes.RESUME} activeClassName={s.active}>
+        <NavLink to={routes.CONTACT} activeClassName={s.active}>
           <CgFileDocument />
           Contacto
         </NavLink>

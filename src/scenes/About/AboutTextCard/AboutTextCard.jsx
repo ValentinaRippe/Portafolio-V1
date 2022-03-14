@@ -11,27 +11,14 @@ const AboutTextCard = () => {
         <br />
         Desarrolladora en MERN Stack y React Native.
         <br />
-        Graduada del Bootcamp Programate de Educamas.
+        Graduada del Bootcamp Prográmate de Educamas.
         <br />
         <br />
-        ¡Aparte de la codificación, algunas otras actividades que me encanta hacer!
       </p>
-
-      <ul>
-        <li className={s.aboutActivity}>
-          <ImPointRight />  Video juegos
-        </li>
-        <li className={s.aboutActivity}>
-          <ImPointRight /> Dibujar
-        </li>
-        <li className={s.aboutActivity}>
-          <ImPointRight />  Dibujar
-        </li>
-      </ul>
 
       <p
         style={{
-          color: '#2d3a1c',
+          color: '#000',
           textAlign: 'center',
           marginTop: '1rem',
         }}

@@ -60,7 +60,7 @@ const IntroSection = () => {
       <div className={s.introSocial}>
         <h1>Encuéntrame en</h1>
         <p>
-          No dude en <span className={s.purple}>concectarse </span>conmigo
+          No dude en <span className={s.purple}>conectarse </span>conmigo
         </p>
         <ul className={s.socialLinks}>
           <li className={s.socialLink}>

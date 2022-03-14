@@ -14,6 +14,7 @@ const resumeLink =
   'https://raw.githubusercontent.com/vsnaichuk/vsnaichuk/master/CV.pdf';
 
 const Resume = () => {
+  const [name, setName] = useState("");
   const pdfWrapper = useRef(null);
   const [pdfPageWidth, setPdfPageWidth] = useState(null);
   useEffect(() => {
@@ -33,6 +34,13 @@ const Resume = () => {
       style.transform = '';
     });
   };
+  //Form submit
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    setName(event.target.value)
+    console.log(name)
+  }
 
   return (
     <BaseLayout>
@@ -72,6 +80,49 @@ const Resume = () => {
               pageNumber={1}
             />
           </Document>
+        </div>
+      </div>
+      <div className="u-wrapper">
+        <div className="contact-content">
+          <form onSubmit={handleSubmit} className="form">
+            <img
+              className="logocard"
+              src="img/logofooter.png"
+              alt=""
+            />
+            <input
+              name="name"
+              required
+              type="text"
+              value={name}
+              onChange={handleSubmit}
+              placeholder='Name'
+            />
+            <input
+              name="email"
+              type="text"
+              id="email"
+              required
+              placeholder="E-mail"
+            />
+            <textarea
+              id="message"
+              name="message"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+            <button type="submit" className="btnSubmit">
+              Submit
+            </button>
+            <a
+              href="mailto:lauravalentina200102@gmail.com"
+              id="emailSubmit"
+            >
+              mail
+            </a>
+          </form>
         </div>
       </div>
     </BaseLayout>

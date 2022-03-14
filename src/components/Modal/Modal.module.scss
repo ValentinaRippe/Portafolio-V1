@@ -46,7 +46,7 @@
 .closeButton {
   margin-left: auto;
   right: 0;
-  background-color: var(--modal-close);
+  background-color: #000;
   border-radius: 0 0 0 100%;
   border-style: solid;
   border-width: 1px;
@@ -60,6 +60,6 @@
 @media (max-height: 575px) {
   .body {
     overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-x: scroll;
   }
 }

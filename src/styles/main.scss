@@ -2,7 +2,7 @@
 @import '~modern-normalize/modern-normalize.css';
 
 //fonts
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Special+Elite&display=swap');
 
 //keyframes
 @import "keyframes";
@@ -16,7 +16,7 @@
 html, body {
   font-size: 16px;
   margin: 0;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

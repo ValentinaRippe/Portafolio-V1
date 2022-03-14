@@ -5,19 +5,18 @@
   align-items: center;
   line-height: 1.5;
   word-wrap: break-word;
-  color: var(--txt);
+  color: var(--txt); 
 }
 
 .image {
   display: block;
-  max-width: 38rem;
-  min-height: 20rem;
+  max-width: 20rem;
 }
 
 .cardBody {
   flex: 1 1 auto;
-  padding: 1.25rem 0;
-  max-width: 575px;
+  padding: 0rem 0;
+  max-width: 300px;
 }
 
 .cardFooter {

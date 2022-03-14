@@ -1,6 +1,6 @@
 import s from './About.module.scss';
 import BaseLayout from '../../layouts/BaseLayout/BaseLayout';
-import aboutPromoImg from '../../assets/about-promo.svg';
+import about from '../../assets/about.svg';
 import AboutTextCard from './AboutTextCard/AboutTextCard';
 import TechSkills from './TechSkills/TechSkills';
 import GithubActivity from './GithubActivity/GithubActivity';
@@ -18,17 +18,17 @@ const About = () => {
           </div>
 
           <div className={s.aboutImg}>
-            <img src={aboutPromoImg} alt="about" />
+            <img src={about} alt="about" />
           </div>
         </div>
 
         <h2 className={s.skills}>
-          Professional <b className={s.purple}>Skills</b>
+          <b className={s.purple}>Habilidades</b> Profesionales
         </h2>
         <TechSkills />
 
         <h2 className={s.githubActivity}>
-          Days I <b className={s.purple}>Code</b>
+          Días de <b className={s.purple}>Código</b>
         </h2>
         <GithubActivity />
       </div>

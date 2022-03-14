@@ -9,6 +9,8 @@ import {
 } from 'react-icons/di';
 import {
   SiRedux,
+  SiDjango,
+  SiPython
 } from 'react-icons/si';
 
 const TechSkills = () => {
@@ -31,6 +33,12 @@ const TechSkills = () => {
       </li>
       <li className={s.techIcon}>
         <SiRedux />
+      </li>
+      <li className={s.techIcon}>
+        <SiDjango />
+      </li>
+      <li className={s.techIcon}>
+        <SiPython />
       </li>
     </ul>
   );
