@@ -11,23 +11,22 @@
 .title {
   padding-top: 10px;
   color: var(--txt);
-  font-size: 6rem;
+  font-size: 6vw;
   font-weight: 200;
 }
 
 .filesImg {
-  width: 35%;
+  width: 30%;
   min-width: 120px;
-  padding: 1rem;
 
   img {
     width: 100%;
     height: auto;
-    display: block;
+    display: flex;
   }
 
   .hero-svg2 {
-    fill: #8a4ca8;
+    fill: #3f5228;
   }
 }
 
@@ -45,6 +44,66 @@
   text-transform: uppercase;
   font-size: 12px;
 }
+.form{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: linear-gradient(115.78deg, rgba(255, 255, 255, 0.4) 3.1%, rgba(255, 255, 255, 0.1) 71.8%);
+  box-shadow: 0px 4px 7px 15px rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  width: 90vw;
+}
+.contact{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem;
+}
+.inputs{
+  height: 6vh;
+  width: 80vw; 
+  background: rgba(21, 59, 34, 0.4);
+  box-shadow: inset 0px 4px 11px 6px rgba(0, 0, 0, 0.25);
+  border-radius:12px;
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.contact textarea{
+  width: 80vw; 
+  background: rgba(21, 59, 34, 0.4);
+  box-shadow: inset 0px 4px 11px 6px rgba(0, 0, 0, 0.25);
+  border-radius:12px;
+}
+::placeholder {
+  color:rgba(255, 255, 255, 1);
+  font-size: 1.2em;
+  padding-left: 1rem;
+  font-weight: 6rem;
+}
+#message{
+  background: #3f52285e;
+  box-shadow: inset 0px 4px 11px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 19px;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+  margin: auto;
+}
+.btnSubmit{
+  width: 30vw; max-width: 40vw;
+  height: 6vh;
+  background: #3f5228;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  font-size: 20px;
+  color: white;
+} 
 
 
 @media (max-width: 600px) {

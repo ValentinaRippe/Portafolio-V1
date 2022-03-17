@@ -20,12 +20,12 @@
 
   &.primary {
     color: var(--btn-primary-txt);
-    background-color: #623686;
-    border-color: #623686;
+    background-color: #2d3a1c;
+    border-color: #3f5227;
     &:hover {
       color: var(--btn-primary-txt);
-      background-color: rgba(109, 32, 197, 0.8431372549019608);
-      border-color: rgba(109, 32, 197, 0.8431372549019608);
+      background-color: #3f5228b4;
+      border-color: rgba(84, 109, 52, 0.767);
     }
   }
 }
