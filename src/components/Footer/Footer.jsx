@@ -2,8 +2,7 @@ import s from './Footer.module.scss';
 import { AiFillGithub } from 'react-icons/ai';
 import {
   FaEnvelope,
-  FaLinkedinIn,
-  FaTelegramPlane,
+  FaLinkedinIn
 } from 'react-icons/fa';
 
 const Footer = () => {

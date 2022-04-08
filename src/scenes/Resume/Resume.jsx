@@ -51,7 +51,7 @@ const Resume = () => {
               type="text"
               value={name}
               onChange={handleSubmit}
-              placeholder='Name'
+              placeholder='Nombre'
             />
             <input
             className={s.inputs}
@@ -62,15 +62,14 @@ const Resume = () => {
               placeholder="E-mail"
             />
             <textarea
-              id="message"
+              className="message"
               name="message"
-              id=""
               cols="30"
               rows="10"
-              placeholder="Message"
+              placeholder="Mensaje"
             ></textarea>
             <button type="submit" className={s.btnSubmit}>
-              Submit
+              Enviar
             </button>
             <a
               href="mailto:lauravalentina200102@gmail.com"

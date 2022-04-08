@@ -1,5 +1,6 @@
 import { lazy } from 'react';
 import { Route, Switch, useLocation } from 'react-router-dom';
+import ScrollToTop from '../components/Scroll/ScrollToTop';
 //modals
 import ModalProjectCard from '../scenes/Projects/ModalProjectCard/ModalProjectCard';
 //scenes
@@ -22,6 +23,7 @@ const BaseRoutes = () => {
 
   return (
     <>
+    <ScrollToTop />
       <Switch location={background || location}>
         <Route path={routes.HOME} exact component={Home} />
         <Route path={routes.ABOUT} component={About} />

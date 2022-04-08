@@ -3,8 +3,7 @@ import avatar from '../../../assets/svg/avataaars.svg';
 import { AiFillGithub } from 'react-icons/ai';
 import {
   FaEnvelope,
-  FaLinkedinIn,
-  FaTelegramPlane,
+  FaLinkedinIn
 } from 'react-icons/fa';
 import Tilt from 'react-parallax-tilt';
 import { LazyLoadImage } from 'react-lazy-load-image-component';

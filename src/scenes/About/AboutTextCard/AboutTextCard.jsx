@@ -1,5 +1,4 @@
 import s from './AboutTextCard.module.scss';
-import { ImPointRight } from 'react-icons/im';
 
 const AboutTextCard = () => {
   return (
@@ -18,7 +17,7 @@ const AboutTextCard = () => {
 
       <p
         style={{
-          color: '#000',
+          color: '#491800',
           textAlign: 'center',
           marginTop: '1rem',
         }}
