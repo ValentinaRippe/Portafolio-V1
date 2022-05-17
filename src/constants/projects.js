@@ -64,7 +64,7 @@ export const PROJECTS = [
     description:
       'Una aplicación que sirve para crear una lista de pendientes, creada con React',
     image: {
-      src: 'https://user-images.githubusercontent.com/94970159/168904067-0b176139-505c-4aae-9637-34ea12f5a687.png',
+      src: 'https://user-images.githubusercontent.com/94970159/168904845-9ae8aa96-712b-42df-8699-c76a833efde0.png',
       placeholderSrc:
         'data:image/svg+xml;base64,aHR0cDovL2RyaXZlLmdvb2dsZS5jb20vdWM/ZXhwb3J0PXZpZXcmaWQ9MWlMMTZrT2k1M0Naal80U0FGU0hGWmpVbUtrbk1zenZo',
     },
